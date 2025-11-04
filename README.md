@@ -2,12 +2,6 @@
 
 A minimal REST microservice and Dockerized REST API that validates a taker’s liquidity for an OTC RFQ on Solana and returns a signed preflight proof (UUID, commit hash, ECDSA signature) for on‑chain verification.
 
-## How it fits
-
-Use the service output in a Solana preflight instruction that verifies the hash and ECDSA signature on‑chain before running the business logic. See also:
-
-- [experimental-preflight-sigcheck](https://github.com/unleaktrade/experimental-preflight-sigcheck)
-- [settlement-engine](https://github.com/unleaktrade/settlement-engine)
 
 ## Endpoints
 
